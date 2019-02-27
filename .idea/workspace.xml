@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96959b4f-97ec-4f91-9ae1-b3fb106a93da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/file_upload/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_upload/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upload/templates/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/upload/templates/book_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/templates/upload_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/upload/templates/upload_book.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +34,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="223" />
-          <entry key="py" value="903" />
+          <entry key="html" value="270" />
+          <entry key="py" value="979" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="223" />
-          <entry key="Python" value="903" />
+          <entry key="HTML" value="270" />
+          <entry key="Python" value="979" />
         </counts>
       </usages-collector>
     </session>
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/templates/upload_book.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -87,20 +87,20 @@
         <entry file="file://$PROJECT_DIR$/upload/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1551213616000" expanded="true" signature="85:90" ph="..." />
+                <marker date="1551257857000" expanded="true" signature="85:90" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upload/templates/book_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="329">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -117,10 +117,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <marker date="1551211321000" expanded="true" signature="84:228" ph="..." />
+                <marker date="1551257667000" expanded="true" signature="84:308" ph="..." />
               </folding>
             </state>
           </provider>
@@ -154,16 +154,16 @@
       <list>
         <option value="$PROJECT_DIR$/upload/templates/index.html" />
         <option value="$PROJECT_DIR$/upload/templates/base.html" />
-        <option value="$PROJECT_DIR$/upload/models.py" />
         <option value="$PROJECT_DIR$/upload/templates/upload.html" />
         <option value="$PROJECT_DIR$/upload/templates/upload_list.html" />
-        <option value="$PROJECT_DIR$/upload/forms.py" />
         <option value="$PROJECT_DIR$/upload/urls.py" />
         <option value="$PROJECT_DIR$/upload/views.py" />
         <option value="$PROJECT_DIR$/file_upload/urls.py" />
-        <option value="$PROJECT_DIR$/upload/templates/book_list.html" />
         <option value="$PROJECT_DIR$/file_upload/settings.py" />
         <option value="$PROJECT_DIR$/upload/templates/upload_book.html" />
+        <option value="$PROJECT_DIR$/upload/models.py" />
+        <option value="$PROJECT_DIR$/upload/forms.py" />
+        <option value="$PROJECT_DIR$/upload/templates/book_list.html" />
       </list>
     </option>
   </component>
@@ -174,8 +174,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="229" />
-    <option name="y" value="35" />
+    <option name="x" value="357" />
+    <option name="y" value="23" />
     <option name="width" value="1232" />
     <option name="height" value="818" />
   </component>
@@ -272,7 +272,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="454" y="24" width="1232" height="818" extended-state="0" />
+    <frame x="632" y="23" width="1232" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -333,16 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1551211321000" expanded="true" signature="84:228" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -375,13 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/templates/book_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file_upload/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -389,21 +372,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1551213616000" expanded="true" signature="85:90" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/templates/upload_book.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1551257667000" expanded="true" signature="84:308" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1551257857000" expanded="true" signature="85:90" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/templates/book_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>

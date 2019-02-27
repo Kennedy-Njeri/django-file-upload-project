@@ -16,6 +16,7 @@
 <table class="table mb-0">
     <thead>
       <tr>
+          <th>Cover</th>
         <th>Title</th>
         <th>Author</th>
         <th>Download</th>
@@ -25,6 +26,15 @@
     <tbody>
       {% for book in books %}
         <tr>
+            <td>
+                {% if book.cover %}
+                 <img src="{{ book.cover.url }}" alt="{{ book.title }}" style="width: 100px">
+                {% else %}
+                  <span class="text-muted">Nocover</span>
+                {% endif %}
+
+
+            </td>
 
           <td>{{ book.title }}</td>
           <td>{{ book.author }}</td>
