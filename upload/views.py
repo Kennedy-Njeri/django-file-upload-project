@@ -11,6 +11,8 @@ from django.urls import reverse_lazy
 from .forms import BookForm
 from .models import Book
 
+from .filters import BookFilter
+
 # Create your views here.
 
 class IndexView(TemplateView):
@@ -52,6 +54,12 @@ def delete_book(request, pk):
         book = Book.objects.get(pk=pk)
         book.delete()
     return redirect('book_list')
+
+
+def search(request):
+    book_list = Book.objects.all()
+    book_filter = BookFilter(request.GET, queryset=book_list)
+    return render(request, 'books_list.html', {'filter': book_filter})
 
 
 """Using Generic Class Based Views"""
