@@ -11,3 +11,9 @@ class Book(models.Model):
 
     def __str__(self):
         return self.title
+
+     """overriding predefined model methods"""
+    def delete(self, *args, **kwargs):
+        self.pdf.delete()
+        self.cover.delete()
+        super().delete(*args, **kwargs)

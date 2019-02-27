@@ -6,6 +6,7 @@ from django.views.generic import (View, TemplateView,
                                   DeleteView)
 
 from django.core.files.storage import FileSystemStorage
+from django.urls import reverse_lazy
 
 from .forms import BookForm
 from .models import Book
@@ -45,3 +46,24 @@ def upload_book(request):
         'form': form
     })
 
+
+def delete_book(request, pk):
+    if request.method == 'POST':
+        book = Book.objects.get(pk=pk)
+        book.delete()
+    return redirect('book_list')
+
+
+"""Using Generic Class Based Views"""
+
+class BookListView(ListView):
+    model = Book
+    template_name = 'book_list.html'
+    context_object_name = 'books'
+
+
+class UploadBookView(CreateView):
+    model = Book
+    fields = ('title', 'author', 'pdf', 'cover')
+    success_url = reverse_lazy('book_list')
+    template_name = 'upload_book.html'
