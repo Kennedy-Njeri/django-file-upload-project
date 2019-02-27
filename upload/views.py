@@ -39,8 +39,8 @@ def upload_book(request):
         if form.is_valid():
             form.save()
             return redirect('book_list')
-        else:
-            form = BookForm()
+    else:
+        form = BookForm()
     return render(request, 'upload_book.html', {
         'form': form
     })
