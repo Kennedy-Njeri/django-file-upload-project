@@ -7,8 +7,14 @@
     <button type="submit">Search</button>
   </form>
   <ul>
+
+      {% if filter.qs %}
   {% for book in filter.qs %}
       {{ book.title }} - {{ book.author }}</br
   {% endfor %}
+
+      {% else %}
+      <p>No Results</p>
+      {% endif %}
   </ul>
 {% endblock %}
